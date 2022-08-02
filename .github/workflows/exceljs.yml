@@ -32,9 +32,9 @@ jobs:
           restore-keys: |
             v1-${{ runner.os }}-node-${{ matrix.node-version }}-npm-
       - run: npm install
-      - run: npm test
-        env:
-          CI: true
+      # - run: npm test
+      #   env:
+      #     CI: true
 
   typescript:
     name: Ensure typescript compatibility
