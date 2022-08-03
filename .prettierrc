@@ -3,6 +3,7 @@
     "printWidth": 100,
     "trailingComma": "all",
     "arrowParens": "avoid",
-    "singleAttributePerLine": true
+    "singleAttributePerLine": true,
+    "singleQuote": true
   }
   
